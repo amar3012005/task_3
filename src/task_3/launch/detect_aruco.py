@@ -3,7 +3,7 @@ import numpy as np
 
 cap = cv2.VideoCapture('aruco.mp4')
 
-aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_6X6_250)
+aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_4X4_1000)
 parameters = cv2.aruco.DetectorParameters_create()
 
 cameraMatrix = np.array([[1000, 0, 640],

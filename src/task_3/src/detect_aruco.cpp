@@ -5,8 +5,7 @@
 
 class ArucoMarkerDetector : public rclcpp::Node {
 public:
-    ArucoMarkerDetector() : Node("aruco_marker_detector") {
-        // Your initialization and subscription code
+    ArucoMarkerDetector() : Node("aruco_marker_detector") 
     }
 };
 
